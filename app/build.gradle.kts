@@ -21,6 +21,10 @@ if (officialBuild) {
 android {
     namespace = "com.tsng.hidemyapplist"
 
+    defaultConfig {
+        applicationId = "zako.myapplist.hide"
+    }
+
     buildFeatures {
         buildConfig = true
         viewBinding = true
